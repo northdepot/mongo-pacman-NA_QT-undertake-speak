@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: mongodb
     spec:
       containers:
-      - image: quay.io/jduimovich0/mongo-backend
+      - image: quay.io/jduimovich0/mongo-backend@sha256:14a0d764c8b1945cc6cabe4da6194dcfe51503ad63342e083f6d3b7e1097acf8
         imagePullPolicy: Always
         name: container-image
         ports:
