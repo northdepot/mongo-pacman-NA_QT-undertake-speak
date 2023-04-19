@@ -13,7 +13,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/jduimovich0/pacman-frontend
+      - image: quay.io/jduimovich0/pacman-frontend@sha256:60414ac34f573cbd26c88477cad5ca21985d38485d60334cad9fc1064c98256b
         name: container-image
         resources: {}
 status: {}
